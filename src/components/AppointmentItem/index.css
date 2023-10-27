@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.app-list {
+  border: 1px solid #b5b7c4;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  .app-list {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 30px;
+    min-width: 300px;
+  }
+}
+.head-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #171f46;
+  margin: 0px;
+}
+
+.star-btn {
+  border: none;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+}
+.star-img {
+  height: 20px;
+  width: 20px;
+  border: none;
+  outline: none;
+  background: transparent;
+  align-self: center;
+}
+@media screen and (min-width: 768px) {
+  .star-img {
+    height: 25px;
+    width: 25px;
+  }
+}
+.date {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #b5b7c4;
+  font-weight: 400;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .date {
+    font-size: 16px;
+  }
+}
